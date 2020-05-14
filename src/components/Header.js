@@ -30,7 +30,7 @@ export default () => {
 	)
 	return (
 		<header css={header}>
-			<Logo href="https://davidiborra.com">Kyva</Logo>
+			<Logo href="https://blog.davidiborra.com/">Kyva</Logo>
 			<div className="title">{data.site.siteMetadata.title}</div>
 		</header>
 	)
