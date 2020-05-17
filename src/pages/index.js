@@ -2,9 +2,11 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { css } from '@emotion/core'
+import SEO from '../components/seo'
 
 export default ({ data }) => (
 	<Layout>
+		<SEO />
 		<h1>ESTO ES EL TÍTULO DEL BLOG</h1>
 		<h2>Esto es un subtitulo</h2>
 		<h4>{data.allMarkdownRemark.totalCount} Posts</h4>
@@ -21,7 +23,7 @@ export default ({ data }) => (
 						{node.frontmatter.title}{' '}
 						<span
 							css={css`
-								color: #bbb;
+								color: #999;
 							`}
 						>
 							{' '}
@@ -37,6 +39,12 @@ export default ({ data }) => (
 
 export const query = graphql`
 	query {
+		site {
+			siteMetadata {
+				title
+				description
+			}
+		}
 		allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
 			totalCount
 			edges {
