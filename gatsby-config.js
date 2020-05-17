@@ -1,6 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		title: `El blog de Kyva`
+		title: `El blog de Kyva`,
+		description: `Encuentra información útil y reflexiones sobre desarrollo web, ui, ux y filosofía.`
 	},
 	plugins: [
 		{
@@ -21,8 +22,10 @@ module.exports = {
 				background_color: `#f6f6f6`,
 				theme_color: `#f6f6f6`,
 				display: `standalone`,
-				icon: `src/images/icon.svg`
+				icon: `src/images/kyva-icon.svg`
 			}
-		}
+		},
+		`gatsby-plugin-offline`,
+		`gatsby-plugin-react-helmet`
 	]
 }
