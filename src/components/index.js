@@ -1,3 +1,7 @@
 export { default as Button } from './Button'
 export { default as Layout } from './Layout'
 export { default as Header } from './Header'
+export { default as Navbar } from './Navbar'
+export { default as Tag } from './Tag'
+export { default as Post } from './Post'
+export { default as PostList } from './PostList'

@@ -2,7 +2,6 @@ import React from 'react'
 import { Global, css } from '@emotion/core'
 import { colors } from '../styles/variables'
 import fonts from '../styles/fonts'
-import { Header } from './'
 
 const global = css`
 	* {
@@ -10,29 +9,19 @@ const global = css`
 	}
 	${fonts}
 	body {
-		background: ${colors.white};
+		background: ${colors.whiteBackground};
 		font-family: OpenSans, serif;
 		font-size: 16px;
 		color: rgba(0, 0, 0, 0.8);
-		margin: 60px 10vw 0 10vw;
 		line-height: 1.45;
 	}
-	h1,
-	h2 {
-		font-family: Signika, Arial, sans-serif;
-		color: rgba(0, 0, 0, 0.6);
-	}
-	h1 {
-		font-size: 3em;
-		margin: 2em 0 1.5em 0;
-		text-align: center;
-	}
-	h2 {
-		font-size: 2em;
-		margin: 2em 0 1em 0;
-	}
-	p {
-		font-size: 1.1em;
+	.gatsby-highlight-code-line {
+		display: block;
+		width: 100%;
+		background: rgba(0, 171, 255, 0.2);
+		border-left: solid 4px rgba(0, 171, 255);
+		margin: 0 -15px;
+		padding: 0 15px 0 11px;
 	}
 `
 
@@ -40,7 +29,6 @@ export default ({ children }) => {
 	return (
 		<div>
 			<Global styles={global} />
-			<Header />
 			{children}
 		</div>
 	)

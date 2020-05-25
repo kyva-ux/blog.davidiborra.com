@@ -1,15 +1,47 @@
 import { css } from '@emotion/core'
-import Signika from '../../static/Signika-Bold.ttf'
+import Montserrat from '../../static/Montserrat-Regular.ttf'
+import MontserratItalic from '../../static/Montserrat-Italic.ttf'
+import MontserratLight from '../../static/Montserrat-Light.ttf'
+import MontserratLightItalic from '../../static/Montserrat-lightItalic.ttf'
+import MontserratBold from '../../static/Montserrat-SemiBold.ttf'
+import MontserratBoldItalic from '../../static/Montserrat-SemiBoldItalic.ttf'
 import OpenSansRegular from '../../static/OpenSans-Regular.ttf'
 import OpenSansBold from '../../static/OpenSans-SemiBold.ttf'
 import OpenSansItalic from '../../static/OpenSans-Italic.ttf'
 import OpenSansBoldItalic from '../../static/OpenSans-SemiBoldItalic.ttf'
-import KaushanScript from '../../static/KaushanScript-Regular.ttf'
 
 export default css`
 	@font-face {
-		font-family: 'Signika';
-		src: url(${Signika}) format('truetype');
+		font-family: 'Montserrat';
+		src: url(${Montserrat}) format('truetype');
+		font-weight: 400;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		src: url(${MontserratItalic}) format('truetype');
+		font-weight: 400;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url(${MontserratLight}) format('truetype');
+		font-weight: light;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		src: url(${MontserratLightItalic}) format('truetype');
+		font-weight: light;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url(${MontserratBold}) format('truetype');
+		font-weight: bold;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		src: url(${MontserratBoldItalic}) format('truetype');
 		font-weight: bold;
 	}
 	@font-face {
@@ -35,11 +67,5 @@ export default css`
 		font-style: italic;
 		src: url(${OpenSansBoldItalic}) format('truetype');
 		font-weight: bold;
-	}
-	@font-face {
-		font-family: 'KaushanScript';
-		font-style: italic;
-		src: url(${KaushanScript}) format('truetype');
-		font-weight: normal;
 	}
 `
