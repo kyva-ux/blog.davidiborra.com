@@ -24,6 +24,13 @@ export default () => {
 							tag
 							time
 							group
+							img {
+								childImageSharp {
+									fluid(maxWidth: 700) {
+										...GatsbyImageSharpFluid
+									}
+								}
+							}
 						}
 						fields {
 							slug
@@ -37,7 +44,7 @@ export default () => {
 	return (
 		<div css={postListStyle}>
 			{data.allMarkdownRemark.edges.map(({ node }) => (
-				<Post key={node.id} slug={node.fields.slug} data={node.frontmatter} />
+				<Post key={node.id} slug={node.fields.slug} post={node.frontmatter} />
 			))}
 		</div>
 	)

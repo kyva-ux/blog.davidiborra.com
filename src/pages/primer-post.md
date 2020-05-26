@@ -5,6 +5,7 @@ description: 'El placer por el chocolate negro, el café, el mate o el vino lleg
 tag: 'Filosofía'
 group: 'En busca de la felicidad'
 time: '10 min'
+img: '../images/felicidad-amarga.jpg'
 ---
 
 Este es el primer `post` de mi blog.
