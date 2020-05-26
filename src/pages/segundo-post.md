@@ -5,6 +5,7 @@ description: 'Buscando una forma sencilla de crear un blog simple y rápido eleg
 group: 'Tutoriales de Gatsby'
 tag: 'Desarrollo'
 time: '5 min'
+img: '../images/music.jpg'
 ---
 
 Este es el segundo post de mi blog.

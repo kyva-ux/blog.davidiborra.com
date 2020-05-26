@@ -12,6 +12,7 @@ module.exports = {
 				path: `${__dirname}/src/`
 			}
 		},
+		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		{
 			resolve: `gatsby-transformer-remark`,
@@ -30,6 +31,12 @@ module.exports = {
 						}
 					}
 				]
+			}
+		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				path: `${__dirname}/src/images`
 			}
 		},
 		`gatsby-plugin-emotion`,
