@@ -13,11 +13,15 @@ const styles = css`
 		font-size: 16px;
 		color: rgba(0, 0, 0, 0.8);
 		line-height: 1.45;
+		position: relative;
+		overflow: hidden;
 	}
 	.page-container {
 		background: ${colors.background};
 		max-width: 600px;
 		margin: auto;
+		overflow-y: scroll;
+		height: calc(100vh - 80px);
 	}
 	.post-group-title {
 		display: flex;
@@ -69,7 +73,7 @@ const styles = css`
 	.back-button {
 		width: 60px;
 		height: 60px;
-		position: fixed;
+		position: absolute;
 		bottom: 24px;
 		left: 24px;
 		border-radius: 10px;

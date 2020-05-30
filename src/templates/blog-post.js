@@ -5,10 +5,12 @@ import { colors } from '../styles/variables'
 import SEO from '../components/seo'
 import Img from 'gatsby-image'
 import { Tag } from '../components'
+import Link from 'gatsby-plugin-transition-link/AniLink'
 
 let postContainer = css`
-	padding-top: 80px;
 	background: ${colors.white};
+	height: calc(100vh - 80px);
+	overflow-y: auto;
 	& p {
 		line-height: 1.75;
 		letter-spacing: 1.5px;
@@ -68,7 +70,7 @@ export default function BlogPost({ data }) {
 				className="post-body"
 				dangerouslySetInnerHTML={{ __html: post.html }}
 			/>
-			<div className="back-button">
+			<Link className="back-button" to="/" swipe top="entry" direction="right">
 				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="20">
 					<path
 						d="M 1.101 16.486 C 0.698 16.486 0.352 16.29 0.15 15.948 C -0.051 15.605 -0.051 15.216 0.158 14.875 L 8.733 0.529 C 8.934 0.192 9.273 0 9.676 0 C 10.071 0 10.417 0.192 10.619 0.529 L 19.193 14.875 C 19.395 15.216 19.403 15.605 19.201 15.948 C 19 16.29 18.653 16.486 18.25 16.486 Z"
@@ -81,7 +83,7 @@ export default function BlogPost({ data }) {
 						fill="hsla(0, 0%, 0%, 0.5)"
 					></path>
 				</svg>
-			</div>
+			</Link>
 		</div>
 	)
 }

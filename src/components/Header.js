@@ -4,9 +4,8 @@ import styled from '@emotion/styled'
 import { colors } from '../styles/variables'
 
 let header = css`
-	position: fixed;
-	top: 0;
 	width: 100%;
+	position: sticky;
 	display: flex;
 	align-items: center;
 	height: 80px;

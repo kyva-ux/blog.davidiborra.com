@@ -7,7 +7,6 @@ let navbar = css`
 	justify-content: space-around;
 	align-items: center;
 	padding: 32px 8px 24px 8px;
-	margin-top: 80px;
 `
 
 export default () => {
