@@ -8,7 +8,8 @@ time: '10 min'
 img: '../images/felicidad-amarga.jpg'
 ---
 
-Este es el primer `post` de mi blog.
+El placer por el chocolate negro, el café, el mate o el vino llega con la edad. ¿Por qué? Schopenhauer puede tener la respuesta.
+
 ![Grupo de música](../images/music.jpg)
 
 ```javascript
@@ -36,3 +37,5 @@ export const query = graphql`
 	}
 `
 ```
+
+El placer por el chocolate negro, el café, el mate o el vino llega con la edad. ¿Por qué? Schopenhauer puede tener la respuesta.

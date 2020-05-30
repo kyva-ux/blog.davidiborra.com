@@ -12,6 +12,12 @@ module.exports = {
 				path: `${__dirname}/src/`
 			}
 		},
+		{
+			resolve: 'gatsby-plugin-transition-link',
+			options: {
+				layout: require.resolve(`./src/components/Layout.js`)
+			}
+		},
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		{
@@ -41,6 +47,14 @@ module.exports = {
 		},
 		`gatsby-plugin-emotion`,
 		`gatsby-plugin-sitemap`,
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				host: 'https://blog.davidiborra.com',
+				sitemap: 'https://blog.davidiborra.com/sitemap.xml',
+				policy: [{ userAgent: '*', allow: '/' }]
+			}
+		},
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
