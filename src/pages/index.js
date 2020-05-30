@@ -1,16 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { Header, Navbar, PostList } from '../components'
+import { Navbar, PostList } from '../components'
 
 export default ({ data }) => (
-	<Layout>
+	<div className="page-container">
 		<SEO />
-		<Header />
 		<Navbar />
 		<PostList />
-	</Layout>
+	</div>
 )
 
 export const query = graphql`
