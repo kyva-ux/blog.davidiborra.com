@@ -9,13 +9,25 @@ let navbar = css`
 	padding: 32px 8px 24px 8px;
 `
 
-export default () => {
+export default ({ updateFilter }) => {
+	let toggle = category => {
+		updateFilter(category)
+		console.log(category)
+	}
 	return (
 		<nav css={navbar}>
-			<Tag>Filosofía</Tag>
-			<Tag>Desarrollo</Tag>
-			<Tag>UX</Tag>
-			<Tag>Diseño</Tag>
+			<Tag onTap={toggle} navbar={true}>
+				Filosofía
+			</Tag>
+			<Tag onTap={toggle} navbar={true}>
+				Desarrollo
+			</Tag>
+			<Tag onTap={toggle} navbar={true}>
+				UX
+			</Tag>
+			<Tag onTap={toggle} navbar={true}>
+				Diseño
+			</Tag>
 		</nav>
 	)
 }

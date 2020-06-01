@@ -1,39 +1,27 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React, { useState } from 'react'
 import SEO from '../components/seo'
 import { Navbar, PostList } from '../components'
 
-export default ({ data }) => (
-	<div className="page-container">
-		<SEO />
-		<Navbar />
-		<PostList />
-	</div>
-)
+export default () => {
+	const [categories, setCategories] = useState([
+		'Filosofía',
+		'Desarrollo',
+		'UX',
+		'Diseño'
+	])
 
-export const query = graphql`
-	query {
-		site {
-			siteMetadata {
-				title
-				description
-			}
-		}
-		allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-			totalCount
-			edges {
-				node {
-					id
-					frontmatter {
-						title
-						date(formatString: "DD MMMM, YYYY")
-					}
-					fields {
-						slug
-					}
-					excerpt
-				}
-			}
-		}
+	let filter = category => {
+		if (categories.includes(category)) {
+			setCategories(categories.filter(c => c !== category))
+		} else setCategories([...categories, category])
+		console.log(categories)
 	}
-`
+
+	return (
+		<div className="page-container">
+			<SEO />
+			<Navbar updateFilter={filter} />
+			<PostList categories={categories} />
+		</div>
+	)
+}

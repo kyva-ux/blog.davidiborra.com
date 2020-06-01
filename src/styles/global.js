@@ -6,6 +6,10 @@ const styles = css`
 	* {
 		margin: 0;
 	}
+	*:focus,
+	*:active {
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	}
 	${fonts}
 	body {
 		background: ${colors.background};
@@ -16,6 +20,7 @@ const styles = css`
 		position: relative;
 		overflow: hidden;
 	}
+
 	.page-container {
 		background: ${colors.background};
 		max-width: 600px;
@@ -74,14 +79,20 @@ const styles = css`
 		width: 60px;
 		height: 60px;
 		position: absolute;
-		bottom: 24px;
-		left: 24px;
+		bottom: 16px;
+		left: 16px;
 		border-radius: 10px;
 		box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
 		background: ${colors.white};
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+	.back-button {
+		transition: transform 0.1s ease-in-out;
+	}
+	.back-button:active {
+		transform: scale(1.1);
 	}
 `
 export default styles

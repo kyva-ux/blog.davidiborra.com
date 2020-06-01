@@ -10,7 +10,7 @@ let postListStyle = css`
 	padding-bottom: 48px;
 `
 
-export default () => {
+export default ({ categories }) => {
 	const data = useStaticQuery(graphql`
 		query {
 			allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -42,9 +42,15 @@ export default () => {
 		}
 	`)
 
+	let posts = data.allMarkdownRemark.edges
+
+	let filtredPosts = posts.filter(post => {
+		return categories.includes(post.node.frontmatter.tag)
+	})
+
 	return (
 		<div css={postListStyle}>
-			{data.allMarkdownRemark.edges.map(({ node }) => (
+			{filtredPosts.map(({ node }) => (
 				<Post key={node.id} slug={node.fields.slug} post={node.frontmatter} />
 			))}
 		</div>
