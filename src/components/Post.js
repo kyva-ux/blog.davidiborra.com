@@ -12,10 +12,14 @@ let postStyle = css`
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	transition: transform 0.1s ease-in-out;
 	& p {
 		font-size: 16px;
 		letter-spacing: 1.8;
 		font-weight: light;
+	}
+	&:active {
+		transform: scale(1.03);
 	}
 `
 
