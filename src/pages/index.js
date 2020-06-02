@@ -2,13 +2,12 @@ import React, { useState } from 'react'
 import SEO from '../components/seo'
 import { Navbar, PostList } from '../components'
 
+const mainCategories = ['Filosofía', 'Desarrollo', 'UX', 'Diseño']
 export default () => {
-	const [categories, setCategories] = useState([
-		'Filosofía',
-		'Desarrollo',
-		'UX',
-		'Diseño'
-	])
+	let query = new URLSearchParams(window.location.search).get('categoria')
+	query = mainCategories.includes(query) ? query : null
+	let defaultCategories = query ? [query] : mainCategories
+	const [categories, setCategories] = useState(defaultCategories)
 
 	let filter = category => {
 		if (categories.includes(category)) {
@@ -18,10 +17,12 @@ export default () => {
 	}
 
 	return (
-		<div className="page-container">
-			<SEO />
-			<Navbar updateFilter={filter} />
-			<PostList categories={categories} />
+		<div className="main-container">
+			<div className="page-container">
+				<SEO />
+				<Navbar updateFilter={filter} active={query} />
+				<PostList categories={categories} />
+			</div>
 		</div>
 	)
 }
