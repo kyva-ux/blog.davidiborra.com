@@ -5,6 +5,7 @@ import fonts from './fonts'
 const styles = css`
 	* {
 		margin: 0;
+		box-sizing: border-box;
 	}
 	*:focus,
 	*:active {
@@ -17,15 +18,16 @@ const styles = css`
 		font-size: 16px;
 		color: rgba(0, 0, 0, 0.8);
 		line-height: 1.45;
-		position: relative;
 		overflow: hidden;
 	}
-
-	.page-container {
+	.main-container {
+		overflow-y: auto;
 		background: ${colors.background};
-		max-width: 600px;
+		height: calc(100vh - 80px);
+	}
+	.page-container {
+		max-width: 750px;
 		margin: auto;
-		overflow-y: scroll;
 		height: calc(100vh - 80px);
 	}
 	.post-group-title {
@@ -66,13 +68,32 @@ const styles = css`
 		overflow: hidden;
 	}
 
+	.gatsby-highlight {
+		with: 100%;
+		max-width: 650px;
+		margin: auto;
+		font-size: 14px;
+	}
+
 	.gatsby-highlight-code-line {
 		display: block;
 		width: 100%;
 		background: rgba(0, 171, 255, 0.2);
 		border-left: solid 4px rgba(0, 171, 255);
 		margin: 0 -15px;
-		padding: 0 15px 0 11px;
+		padding: 0 0px 0 11px;
+	}
+
+	@media (min-width: 480px) {
+		.gatsby-highlight {
+			max-width: 650px;
+			margin: 0 2em;
+			font-size: 14px;
+		}
+		.gatsby-highlight > pre {
+			border-radius: 10px;
+			overflow: auto;
+		}
 	}
 
 	.back-button {

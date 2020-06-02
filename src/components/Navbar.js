@@ -9,23 +9,22 @@ let navbar = css`
 	padding: 32px 8px 24px 8px;
 `
 
-export default ({ updateFilter }) => {
+export default ({ updateFilter, active }) => {
 	let toggle = category => {
 		updateFilter(category)
-		console.log(category)
 	}
 	return (
 		<nav css={navbar}>
-			<Tag onTap={toggle} navbar={true}>
+			<Tag onTap={toggle} navbar={true} filter={active}>
 				Filosofía
 			</Tag>
-			<Tag onTap={toggle} navbar={true}>
+			<Tag onTap={toggle} navbar={true} filter={active}>
 				Desarrollo
 			</Tag>
-			<Tag onTap={toggle} navbar={true}>
+			<Tag onTap={toggle} navbar={true} filter={active}>
 				UX
 			</Tag>
-			<Tag onTap={toggle} navbar={true}>
+			<Tag onTap={toggle} navbar={true} filter={active}>
 				Diseño
 			</Tag>
 		</nav>

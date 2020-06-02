@@ -2,10 +2,13 @@ import React, { useState } from 'react'
 import { css } from '@emotion/core'
 import { colors } from '../styles/variables'
 
-export default ({ children, onTap, navbar = false }) => {
-	const [active, setActive] = useState(true)
-	let toggle = () => {
-		if (!navbar) return
+export default ({ children, onTap, navbar = false, filter }) => {
+	const [active, setActive] = useState(
+		navbar && filter != null ? filter === children : true
+	)
+	let toggle = e => {
+		e.preventDefault()
+		if (!navbar) window.location.replace(`/?categoria=${children}`)
 		setActive(!active)
 		onTap(children)
 	}
