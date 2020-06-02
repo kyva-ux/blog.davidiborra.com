@@ -10,6 +10,7 @@ let navbar = css`
 `
 
 export default ({ updateFilter, active }) => {
+	console.log(active)
 	let toggle = category => {
 		updateFilter(category)
 	}
