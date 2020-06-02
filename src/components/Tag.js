@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { css } from '@emotion/core'
 import { colors } from '../styles/variables'
 
 export default ({ children, onTap, navbar = false, filter }) => {
-	const [active, setActive] = useState(
-		navbar && filter != null ? filter === children : true
-	)
+	const [active, setActive] = useState(true)
+	useEffect(() => {
+		setActive(navbar && filter != null ? filter === children : true)
+	}, [filter])
 	let toggle = e => {
 		e.preventDefault()
 		if (!navbar) window.location.replace(`/?categoria=${children}`)
