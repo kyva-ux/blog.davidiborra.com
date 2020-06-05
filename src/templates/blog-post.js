@@ -13,15 +13,14 @@ let postContainer = css`
 	margin: auto;
 	box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.1);
 	& p {
-		line-height: 1.75;
-		letter-spacing: 1.5px;
+		line-height: 1.5;
+		letter-spacing: 0.5px;
 	}
 `
 
 let postHeader = css`
 	padding: 32px 24px;
-	& h1 {
-		font-family: Montserrat;
+	& h2 {
 		margin-bottom: 8px;
 		font-size: 24px;
 	}
@@ -38,7 +37,7 @@ export default function BlogPost({ data }) {
 			<div css={postContainer}>
 				<SEO title={post.frontmatter.title} description={post.excerpt} />
 				<div css={postHeader}>
-					<h1>{post.frontmatter.title}</h1>
+					<h2>{post.frontmatter.title}</h2>
 					<span className="post-group-title">
 						<svg xmlns="http://www.w3.org/2000/svg" width="17" height="8">
 							<path

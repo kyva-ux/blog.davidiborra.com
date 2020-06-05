@@ -20,6 +20,20 @@ const styles = css`
 		line-height: 1.45;
 		overflow: hidden;
 	}
+	h1,
+	h2,
+	h3 {
+		font-family: Montserrat, serif;
+	}
+	h1 {
+		font-size: 28px;
+		text-align: center;
+		margin: 24px;
+	}
+	h3 {
+		font-size: 24px;
+		margin: 24px;
+	}
 	.main-container {
 		overflow-y: auto;
 		background: ${colors.background};
@@ -60,7 +74,7 @@ const styles = css`
 	}
 
 	.post-body > p {
-		padding: 24px;
+		padding: 16px;
 	}
 
 	.gatsby-resp-image-wrapper {
