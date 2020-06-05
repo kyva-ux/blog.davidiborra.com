@@ -4,7 +4,7 @@ date: '2020-05-12'
 description: 'El placer por el chocolate negro, el café, el mate o el vino llega con la edad. ¿Por qué? Schopenhauer puede tener la respuesta.'
 tag: 'Filosofía'
 group: 'En busca de la felicidad'
-time: '10 min'
+time: '6 min'
 img: '../images/felicidad-amarga.jpg'
 ---
 
@@ -14,29 +14,29 @@ De todos los cambios que he experimentado a lo largo de mi vida no puedo evitar 
 
 Este fenómeno me ha llevado a preguntarme que relación hay entre la edad y el gusto y si existe una relación sobre como entendemos la felicidad.
 
-Está claro que de niños sentimos una fuerte predilección por los sabores dulces, por ello tras terminar de comer en un restaurante, nuestra elección es una gran bola de helado de chocolate mientras vemos extrañados como nuestros padres se piden una taza de café o té. A su vez, como niños queremos imitar a nuestros progenitores y pedimos probar de dicha taza. Una sola cucharada es suficiente para saber que ese sabor no está hecho para nosotros y volver a incarle el diente a nuestro helado. Si con la boca llena de chocolate nos preguntan si somos felices nuestra respuesta será ¡Si!, total no conocemos la diferencia entre alegría y felicidad.
+Está claro que de niños sentimos una fuerte predilección por los sabores dulces, por ello tras terminar de comer en un restaurante, nuestra elección es una gran bola de helado de chocolate mientras vemos extrañados como nuestros padres se piden una taza de café o té. A su vez, como niños queremos imitar a nuestros progenitores y pedimos probar de dicha taza. Una sola cucharada es suficiente para saber que ese sabor no está hecho para nosotros y volver a hincarle el diente a nuestro helado. Si con la boca llena de chocolate nos preguntan si somos felices nuestra respuesta será "¡Sí!", total no conocemos la diferencia entre alegría y felicidad.
 
-Este es el primer post de la serie llamada "En busca de la felicidad" donde iré compartiendo mis reflexiones sobre lo que motiva mi día a día y lo que yo considero el fin último de cualquier persona, **alcanzar la felicidad**. Por ello he visto conveniente hablar de Schopenhauer ya que sin ser tan pesimista si que estoy de acuerdo con una de sus ideas:
+Este es el primer post de la serie llamada "En busca de la felicidad" donde iré compartiendo mis reflexiones sobre lo que motiva mi día a día y lo que yo considero el fin último de cualquier persona, **alcanzar la felicidad**. Por ello he considerado conveniente hablar de Schopenhauer, ya que sin llegar a ser tan pesimista como él, estoy de acuerdo con una de sus afirmaciones sobre la felicidad:
 
 > "La felicidad y el goce son meras quimeras"
 
-Es decir, la felicidad es como una útopia, para poder vivir de la mejor forma posible es a lo que debemos aspirar aún siendo imposible de lograr.
+Es decir, la felicidad es como una utopía, para poder vivir de la mejor forma posible es a lo que debemos aspirar aún siendo imposible de lograr.
 
-Vale, ¿y que tiene todo esto que ver con el sabor amargo?.
+Vale, ¿y qué tiene todo esto que ver con el sabor amargo?.
 
 Como buen estoico antes de compartir mis conclusiones veo necesario hablar de la relación entre el sabor amargo y nuestra naturaleza humana y así daros la oportunidad de sacar vuestras propias conclusiones.
 
 ### Asociamos el sabor amargo al disgusto
 
-Durante nuestra niñez tenemos un sentido del gusto super desarrollado con el objetivo de identificar facilmente el sabor de los alimentos. Por un lado al necesitar grandes fuentes de energía que suelen provenir de alimentos dulces como el azucar el cerebro nos recompensa inmediatamente con una sensación agradable. Por otro lado, al tener poca experiencia necesitamos un mecanismo de defensa para evitar toxinas las cuales suelen tener un sabor amargo y es por ello que la sensación que sentimos es desagradable.
+Durante nuestra niñez tenemos un sentido del gusto super desarrollado con el objetivo de identificar fácilmente el sabor de los alimentos. Por un lado, al necesitar grandes fuentes de energía que suelen provenir de alimentos dulces como el azúcar el cerebro nos recompensa inmediatamente con una sensación agradable. Por otro lado, al tener poca experiencia necesitamos un mecanismo de defensa para evitar toxinas, las cuales suelen tener un sabor amargo y es por ello que la sensación que sentimos es desagradable.
 
-Tranquilos, nuestra adicción por el azucar no durará para siempre ya que nuestro sentido del gusto va muriendo lentamente. Esta decadencia está afectada por diversos factores como la contaminación o fumar tabaco por lo que dos personas de la misma edad pueden tener diferente sensibilidad. De todas formas nuestro gusto por el café o el vino no tiene nada que ver con nuestra sensibilidad al sabor amargo sino por nuestra exposición a dicho sabor, nuestra motivación o nuestro interes. Aunque es algo meramente cultural si conservamos la sensacion que nos provoca.
+Tranquilos, nuestra adicción por el azúcar no durará para siempre ya que nuestro sentido del gusto va muriendo lentamente. Esta decadencia está afectada por diversos factores como la contaminación o fumar tabaco por lo que dos personas de la misma edad pueden tener diferente sensibilidad. De todas formas nuestro gusto por el café o el vino no tiene nada que ver con nuestra sensibilidad al sabor amargo, sino principalmente por nuestra exposición a dicho sabor, nuestra motivación o nuestro interés. Aunque es algo meramente cultural si conservamos las sensaciones que estos sabores nos provocan.
 
-Nuestra genética tambíen influye en nuestra predilección por ciertos sabores. A modo de curiosidad, un [estudio](https://www.sciencedirect.com/science/article/abs/pii/S0195666315300428) realizado por los científicos de la Universida de Innsbruck, encontró que la preferencia por sabores amargos estaba vinculada al comportamiento psicopático. La asociación más evidente y con la cual coincido fue la del sabor amargo con el "sadismo cotidiano", es decir, sentir placer al inflingir un dolor moderado a otra persona.
+Nuestra genética también influye en nuestra predilección por ciertos sabores. A modo de curiosidad, un [estudio](https://www.sciencedirect.com/science/article/abs/pii/S0195666315300428) realizado por los científicos de la Universidad de Innsbruck, encontró que la preferencia por sabores amargos estaba vinculada al comportamiento psicopático. La asociación más evidente y con la cual coincido fue la del sabor amargo con el "sadismo cotidiano", es decir, sentir placer al infligir un dolor moderado a otra persona.
 
-Otro hecho que puede explicar la tendencia a buscar sabores cada vez más amargos es que si ha algo le produce satisfacción a nuestro cerebro son los nuevos estímulos al mismo tiempo que nos aburrimos de los antiguos. Por ello es común comenzar a consumir café o chocolate azucarado y poco a poco reducir la cantidad de azucar a medida que aumenta nuestra tolerancia y buscamos un sabor más intenso.
+Otro hecho que puede explicar la tendencia a buscar sabores cada vez más amargos es que si algo le produce satisfacción a nuestro cerebro son los nuevos estímulos, al mismo tiempo que nos aburrimos de los antiguos. Por ello es común comenzar a consumir café o chocolate azucarado y poco a poco reducir la cantidad de azúcar a medida que aumenta nuestra tolerancia y buscamos un sabor más intenso.
 
-Ahora bien, que ocurre con el disgusto ¿es simplemente algo que aprendemos a tolerar para poder disfrutar dichos sabores?.
+Ahora bien, ¿Qué ocurre con el disgusto? ¿es simplemente algo que aprendemos a tolerar para poder disfrutar dichos sabores?.
 
 Yo quiero creer que no.
 
@@ -44,7 +44,7 @@ Yo quiero creer que no.
 
 El disgusto que nos produce lo amargo hace que nos resulte más auténtico y eso hace que lo prefiramos.
 
-Para explicarme voy a usar de ejemplo el cine, ¿con el paso de la edad no te has cansado de los finales felices?. Es decir, de pequeños necesitamos esos finales felices y está claro que a todos nos gusta un buen final feliz, pero seguro que estarás de acuerdo de que muchos se sienten forzados para poder lograrlo. En cambio un final triste se siente más auténtico y no solo eso además, si lo hace bien, puede crear un mayor impacto.
+Para explicarme voy a usar de ejemplo el cine, ¿con el paso de la edad no te has cansado de los finales felices?. Es decir, de pequeños necesitamos esos finales felices y está claro que a todos nos gusta un buen final feliz, pero seguro que estarás de acuerdo de que muchos se sienten forzados para poder lograrlo. En cambio un final más crudo se siente más auténtico y no solo eso, si lo hace bien, también puede crear un mayor impacto.
 
 Aquí es donde entra Schopenhauer y sus reglas para lograr la felicidad, más concretamente la número 24, para entender como puede ayudarnos una visión más pesimista de la vida y por que es la elección de algunos.
 
