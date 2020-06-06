@@ -28,6 +28,7 @@ let postHeader = css`
 	& h2 {
 		font-family: Montserrat;
 		line-height: 1.2;
+		padding: 0;
 		margin-bottom: 8px;
 	}
 `

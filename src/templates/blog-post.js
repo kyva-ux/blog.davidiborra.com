@@ -23,6 +23,7 @@ let postHeader = css`
 	& h2 {
 		margin-bottom: 8px;
 		font-size: 24px;
+		padding: 0;
 	}
 `
 

@@ -5,7 +5,7 @@ description: 'El placer por el chocolate negro, el café, el mate o el vino lleg
 tag: 'Filosofía'
 group: 'En busca de la felicidad'
 time: '6 min'
-img: '../images/felicidad-amarga.jpg'
+img: '../images/felicidad-amarga-kyva.jpg'
 ---
 
 # El gusto por el sabor amargo llega con la edad
@@ -18,7 +18,7 @@ Está claro que de niños sentimos una fuerte predilección por los sabores dulc
 
 Este es el primer post de la serie llamada "En busca de la felicidad" donde iré compartiendo mis reflexiones sobre lo que motiva mi día a día y lo que yo considero el fin último de cualquier persona, **alcanzar la felicidad**. Por ello he considerado conveniente hablar de Schopenhauer, ya que sin llegar a ser tan pesimista como él, estoy de acuerdo con una de sus afirmaciones sobre la felicidad:
 
-> "La felicidad y el goce son meras quimeras"
+> La felicidad y el goce son meras quimeras.
 
 Es decir, la felicidad es como una utopía, para poder vivir de la mejor forma posible es a lo que debemos aspirar aún siendo imposible de lograr.
 
@@ -50,13 +50,21 @@ Aquí es donde entra Schopenhauer y sus reglas para lograr la felicidad, más co
 
 #### Sobre las edades de la vida
 
-> "Lo que nos hace tan desgraciados en la primera mitad de la vida, aunque tiene tantas ventajas frente a la segunda, es la persecución de la felicidad a partir de la firme presunción de que debería ser posible encontrarla en la vida; a ello se debe que nuestra esperanza se vea constantemente desilusionada y que estemos descontentos. Vemos ante nuestros ojos las imágenes engañosas de una felicidad soñada e indeterminada en forma de figuras que escogemos a capricho, y en vano buscamos su modelo original.
-> En la segunda mitad de la vida, el lugar del anhelo siempre insatisfecho de la felicidad lo ocupa la preocupación por el infortunio; encontarar para ésta una solución es algo objetivamente posible, porque ahora estamos finalmente curados de aquella presunción y sólo buscamos la tranquilidad y, en lo posible, la ausencia de dolor, de lo cual puede resultar un estado notablemente más satisfactorio que el primero, puesto que deseamos algo alcanzable y esto tiene mayor peso que las carencias propias a la segunda mitad de la vida."
+> Lo que nos hace tan desgraciados en la primera mitad de la vida, aunque tiene tantas ventajas frente a la segunda, es la persecución de la felicidad a partir de la firme presunción de que debería ser posible encontrarla en la vida; a ello se debe que nuestra esperanza se vea constantemente desilusionada y que estemos descontentos. Vemos ante nuestros ojos las imágenes engañosas de una felicidad soñada e indeterminada en forma de figuras que escogemos a capricho, y en vano buscamos su modelo original.
+> En la segunda mitad de la vida, el lugar del anhelo siempre insatisfecho de la felicidad lo ocupa la preocupación por el infortunio; encontarar para ésta una solución es algo objetivamente posible, porque ahora estamos finalmente curados de aquella presunción y sólo buscamos la tranquilidad y, en lo posible, la ausencia de dolor, de lo cual puede resultar un estado notablemente más satisfactorio que el primero, puesto que deseamos algo alcanzable y esto tiene mayor peso que las carencias propias a la segunda mitad de la vida.
+
+### Conclusión
+
+No hay que caer en la trampa de buscar los extremos y pensar que las personas se pueden dividir entre los que prefieren el dulce o el amargo. No hace falta que exista una cierta predilección por un sabor u otro, todo lo contrario, estamos hablando de como nuestro gusto va cambiando. Lo que busco es resaltar que pese a existir motivos meramente biológicos para esta correlación entre la edad y el gusto por lo amargo, creo que nuestra forma de pensar, nuestro estado de ánimo y como vemos la vida son factores a tener en cuenta.
+
+Al final, tendremos que decidir si nuestro postre será una onza de chocolate negro o unas natillas.
 
 Y tu, ¿qué prefieres, un final feliz que te deje un buen sabor de boca o un final amargo más realista y digno de recordar?
 
-Fuentes:
+#### Fuentes:
 
-- [How Our Sense of Taste Changes as We Age - bon appétit](https://www.bonappetit.com/entertaining-style/trends-news/article/sense-of-taste-changes-aging)
-- [Placeres adultos o cómo el gusto por lo amargo se educa con la edad - La Vanguardia](https://www.lavanguardia.com/comer/opinion/20170101/412999223314/como-gusto-amargo-se-educa-edad.html)
-- [El Arte de Ser Feliz: En 50 Reglas para la Vida - Escrito por Arthur Schopenhauer](https://play.google.com/store/books/details/Arthur_Schopenhauer_El_arte_de_ser_feliz?id=tgKIDwAAQBAJ)
+[How Our Sense of Taste Changes as We Age](https://www.bonappetit.com/entertaining-style/trends-news/article/sense-of-taste-changes-aging) <span class="from">Bon Appétit</span>
+
+[Placeres adultos o cómo el gusto por lo amargo se educa con la edad](https://www.lavanguardia.com/comer/opinion/20170101/412999223314/como-gusto-amargo-se-educa-edad.html) <span class="from">La Vanguardia</span>
+
+[El Arte de Ser Feliz: En 50 Reglas para la Vida](https://play.google.com/store/books/details/Arthur_Schopenhauer_El_arte_de_ser_feliz?id=tgKIDwAAQBAJ) <span class="from">Escrito por Arthur Schopenhauer</span>

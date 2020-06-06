@@ -22,17 +22,44 @@ const styles = css`
 	}
 	h1,
 	h2,
-	h3 {
+	h3,
+	h4 {
 		font-family: Montserrat, serif;
+		padding: 24px;
 	}
 	h1 {
 		font-size: 28px;
 		text-align: center;
-		margin: 24px;
 	}
 	h3 {
 		font-size: 24px;
-		margin: 24px;
+	}
+	h4 {
+		font-size: 18px;
+		padding-bottom: 0;
+		color: #7c7c7c;
+	}
+	blockquote {
+		font-style: italic;
+		background: #ececec;
+		padding: 54px 24px 48px 24px;
+		font-family: GentiumBook, serif;
+		font-size: 20px;
+		margin: 24px 0;
+		position: relative;
+	}
+	blockquote::before {
+		content: url('/quote.svg');
+		position: absolute;
+		top: 8px;
+		left: 16px;
+	}
+	blockquote::after {
+		content: url('/quote.svg');
+		position: absolute;
+		bottom: 6px;
+		right: 16px;
+		transform: rotate(180deg);
 	}
 	.main-container {
 		overflow-y: auto;
@@ -75,6 +102,20 @@ const styles = css`
 
 	.post-body > p {
 		padding: 16px;
+	}
+
+	.post-body a {
+		text-decoration: none;
+		color: ${colors.main};
+		font-weight: bold;
+		display: inline-block;
+		border-bottom: solid 2px ${colors.main};
+	}
+
+	.from {
+		font-size: 14px;
+		color: #939393;
+		padding-top: 8px;
 	}
 
 	.gatsby-resp-image-wrapper {
