@@ -9,6 +9,10 @@ import OpenSansRegular from '../../static/OpenSans-Regular.ttf'
 import OpenSansBold from '../../static/OpenSans-SemiBold.ttf'
 import OpenSansItalic from '../../static/OpenSans-Italic.ttf'
 import OpenSansBoldItalic from '../../static/OpenSans-SemiBoldItalic.ttf'
+import GentiumBook from '../../static/GentiumBookBasic-Regular.ttf'
+import GentiumBookBold from '../../static/GentiumBookBasic-Bold.ttf'
+import GentiumBookItalic from '../../static/GentiumBookBasic-Italic.ttf'
+import GentiumBookBoldItalic from '../../static/GentiumBookBasic-BoldItalic.ttf'
 
 export default css`
 	@font-face {
@@ -66,6 +70,30 @@ export default css`
 		font-family: 'OpenSans';
 		font-style: italic;
 		src: url(${OpenSansBoldItalic}) format('truetype');
+		font-weight: bold;
+	}
+	@font-face {
+		font-family: 'GentiumBook';
+		font-style: normal;
+		src: url(${GentiumBook}) format('truetype');
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: 'GentiumBook';
+		font-style: normal;
+		src: url(${GentiumBookBold}) format('truetype');
+		font-weight: bold;
+	}
+	@font-face {
+		font-family: 'GentiumBook';
+		font-style: italic;
+		src: url(${GentiumBookItalic}) format('truetype');
+		font-weight: normal;
+	}
+	@font-face {
+		font-family: 'GentiumBook';
+		font-style: italic;
+		src: url(${GentiumBookBoldItalic}) format('truetype');
 		font-weight: bold;
 	}
 `
